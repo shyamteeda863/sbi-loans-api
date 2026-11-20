@@ -1,0 +1,38 @@
+{
+  "configs": [
+    "magneq-loan-latest-api.xml"
+  ],
+  "secureProperties": [],
+  "supportedJavaVersions": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:sbi-loans-api:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.12.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "api/magneq-loan-latest-api.raml",
+        "api/resuableProperties/resourceTypes/resourceType.raml",
+        "api/resuableProperties/traits/queryParams.raml",
+        "api/resuableProperties/traits/requestHeaders.raml",
+        "api/resuableProperties/types/clientErrors.raml",
+        "api/resuableProperties/types/example.raml",
+        "api/resuableProperties/types/inpdataType.raml",
+        "api/resuableProperties/types/serverErrors.raml",
+        "api/resuableProperties/types/successResp.raml",
+        "application-types.xml",
+        "log4j2.xml",
+        "magneq-loan-latest-api.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  },
+  "javaSpecificationVersions": [
+    "17"
+  ]
+}
